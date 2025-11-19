@@ -37,7 +37,7 @@ const Card = ({user, onDelete, onUpdate}) => {
             title="Delete the User"
         >
             <DeleteAlert 
-                content="Are you sure want to delete this income details."
+                content="Are you sure want to delete this user."
                 onDelete={onDelete}
             />
         </Modal>
