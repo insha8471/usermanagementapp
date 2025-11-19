@@ -7,7 +7,7 @@ const Navbar = ({ onAddUser , type}) => {
     <nav className="bg-black text-white p-6">
       <div className="container mx-auto flex justify-between">
         <Link to="/" className="font-bold text-lg cursor-pointer">
-          User Management App
+          User Management
         </Link>
 
         {
