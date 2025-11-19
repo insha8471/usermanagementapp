@@ -21,7 +21,7 @@ const Card = ({user, onDelete, onUpdate}) => {
             <p className="text-gray-600 text-sm">{user.email}</p>
             <p className="text-gray-500 text-sm mt-1">{user.phone}</p>
             <Link state={{ user }} to={`/user/${user.id}`} className="text-gray-800 text-md mt-1 flex gap-6 cursor-pointer hover:text-blue-800 font-semibold">
-                Click here for more Details <ArrowRight size={18}/>
+                Click here for more Details
             </Link>
         </div>
 
