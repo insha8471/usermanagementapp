@@ -41,7 +41,7 @@ const UserDetails = () => {
                             <div className="space-y-1 text-gray-700">
                                 <p><span className="font-semibold">Street:</span> {address?.street || address}</p>
                                 <p><span className="font-semibold">Suite:</span> {address?.suite || "Block-2"}</p>
-                                <p><span className="font-semibold">City:</span> {address?.city || "New York"}</p>
+                                <p><span className="font-semibold">City:</span> {address?.city || "India"}</p>
                                 <p><span className="font-semibold">Zipcode:</span> {address?.zipcode || "347424"}</p>
                                 <p><span className="font-semibold">Geo:</span> {geo.lat || "N/A"}, {geo.lng || "N/A"}</p>
                             </div>
